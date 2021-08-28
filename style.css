@@ -1,0 +1,43 @@
+.nav-item {
+    padding-right: 25px;
+    font-size: x-large;
+}
+
+.nav-item-left {
+padding-left: 25px;
+font-size: xx-large;
+font-weight: 550;
+padding-bottom: 60px;
+}
+
+.nav-wrapper-left {
+    display: flex;
+    justify-content: flex-start;
+    width: 75%;
+}
+
+.nav-wrapper-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 25%;
+}
+
+.nav-container {
+    display: flex;
+}
+
+.quiz-section {
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+}
+
+.start-section {
+    display: flex;
+    justify-content: center;
+}
+
+.explanation-header {
+    display: flex;
+    justify-content: center;
+}
