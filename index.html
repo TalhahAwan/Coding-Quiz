@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coding Quiz</title>
     <link rel="stylesheet" href="style.css">
+
     <style>
         body {
             background:purple;
@@ -26,7 +27,7 @@
         </div>
 
         <div class="nav-wrapper-right">
-            <div class="nav-item">Time:</div>
+            <div class="nav-item" id="secondsLeft">Time:</div>
         </div>
 
     </nav>
@@ -43,7 +44,7 @@
             </p>
         </div>
         <div class="start-section">
-            <button class="button">Start</button>
+            <button class="button" id="quizTimer" onclick="setTime()">Start</button>
         </div>
     </section>
 
